@@ -21,21 +21,21 @@ export default function Home() {
           {/* nav */}
           <div className="flex-col md:flex-row hidden md:flex gap-2">
             <Link
-              href="/contact-me"
+              href="/pages/about-me"
               className="rounded-[20px] group relative bg-blue-900 opacity-70 hover:opacity-100 transition-opacity duration-300 hover:bg-blue-800 px-5 py-2 text-lg text-white max-w-[200px]"
             >
               {/* <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 hover:opacity-20 transition-opacity duration-300" /> */}
               About me
             </Link>
             <Link
-              href="/contact-me"
+              href="/pages/my-projects"
               className="rounded-[20px] group relative bg-blue-900 opacity-70 hover:opacity-100 transition-opacity duration-300 hover:bg-blue-800 px-5 py-2 text-lg text-white max-w-[200px]"
             >
               {/* <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 hover:opacity-20 transition-opacity duration-300" /> */}
               My projects
             </Link>
             <Link
-              href="/contact-me"
+              href="/pages/contact-me"
               className="rounded-[20px] group relative bg-blue-900 opacity-70 hover:opacity-100 transition-opacity duration-300 hover:bg-blue-800 px-5 py-2 text-lg text-white max-w-[200px]"
             >
               {/* <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 hover:opacity-20 transition-opacity duration-500" /> */}
@@ -47,19 +47,19 @@ export default function Home() {
       {/* mobile */}
       <div className="absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5">
         <Link
-          href="/about-me"
+          href="/pages/about-me"
           className="rounded-[20px] group relative bg-blue-900 hover:bg-gradient-to-r from-blue-900 from-20% to-[#5d78ae] px-5 py-2 text-lg text-white max-w-[200px]"
         >
           About me
         </Link>
         <Link
-          href="/my-projects"
+          href="/pages/my-projects"
           className="rounded-[20px] group relative bg-blue-900 hover:bg-gradient-to-r from-blue-900 from-20% to-[#a0a382] px-5 py-2 text-lg text-white max-w-[200px]"
         >
           My projects
         </Link>
         <Link
-          href="/contact-me"
+          href="/pages/contact-me"
           className="rounded-[20px] group relative bg-blue-900 hover:bg-gradient-to-r from-blue-900 from-20% to-[#f8dc4a] px-5 py-2 text-lg text-white max-w-[200px]"
         >
           Contact me
